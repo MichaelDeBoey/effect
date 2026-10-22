@@ -1,5 +1,15 @@
 # effect
 
+## 4.0.7
+
+### Patch Changes
+
+- [#9377](https://github.com/Effect-TS/effect/pull/9377) [`110fd22`](https://github.com/Effect-TS/effect/commit/110fd22e6555b86301d2e89997386b8c4b71fad3) Thanks @gcanti! - Add a `concurrency` option to `Arbitrary.checkEffect` and global check configuration to run independent property evaluations concurrently. Results remain deterministic for deterministic generators and repeatable properties, while shrinking and replay stay sequential. The default concurrency is `1`.
+
+- [#9754](https://github.com/Effect-TS/effect/pull/9754) [`346fc92`](https://github.com/Effect-TS/effect/commit/346fc9260edcdd96e61bafe6c842e0f3dc2ac596) Thanks @gcanti! - Fix `Schema.isCapitalized` and `Schema.isUncapitalized` accepting astral letters with the wrong case.
+
+- [#9646](https://github.com/Effect-TS/effect/pull/9646) [`785577e`](https://github.com/Effect-TS/effect/commit/785577e861220cee55f3191f8ee3b25bf6120c08) Thanks @tim-smart! - Add the experimental `effect/persistence/CircuitBreaker` module with keyed circuits, consecutive and rate trip policies, an in-memory store and a Redis store, plus `HttpClient.withCircuitBreaker` and `HttpClient.circuitBreakerClassifier`.
+
 ## 4.0.6
 
 ### Patch Changes

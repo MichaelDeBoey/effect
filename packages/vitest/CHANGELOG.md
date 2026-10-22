@@ -1,5 +1,12 @@
 # @effect/vitest
 
+## 4.0.7
+
+### Patch Changes
+
+- Updated dependencies [[`110fd22`](https://github.com/Effect-TS/effect/commit/110fd22e6555b86301d2e89997386b8c4b71fad3), [`346fc92`](https://github.com/Effect-TS/effect/commit/346fc9260edcdd96e61bafe6c842e0f3dc2ac596), [`785577e`](https://github.com/Effect-TS/effect/commit/785577e861220cee55f3191f8ee3b25bf6120c08)]:
+  - effect@4.0.7
+
 ## 4.0.6
 
 ### Patch Changes
